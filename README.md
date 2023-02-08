@@ -125,13 +125,13 @@ Available commands and what they do
 ====================================
 The recognizable commands by the interpreter are the following:
 
-Command	|	Description
-========|======================================================
-quit/EOF|	Exits the program
-Usage	|	By itself
-========|======================================================
-help	|	Provides a text describing how to use a command.
-Usage	|	By itself --or-- help <command>
+| Command | Description |
+|---------|-------------|
+| quit/EOF| Exits the program |
+| Usage	  | By itself |
+|---------|-------------|
+| help    | Provides a text describing how to use a command.|
+| Usage   | By itself --or-- help <command> |
 ========|======================================================
 create	|	Creates a new instance of a valid Class, saves it (to the JSON file) and prints the id. Valid classes are: BaseModel, User, State, City, Amenity, Place, Review.
 Usage	|	create <class name>
@@ -151,6 +151,5 @@ Usage	|	update <class name> <id> <attribute name> "<attribute value>" or <class 
 ========|======================================================
 count	|	Retrieve the number of instances of a class.
 Usage	|	<class name>.count()
-========|======================================================
 
 ###Authors : Motun Marteen and Atere Oluwatosin 
