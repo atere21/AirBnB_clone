@@ -8,7 +8,7 @@ Based on 2 APIs:
 - http://jigsaw.w3.org/css-validator/validator
 
 ## Installation
-1. Clone this repo
+1. Clone this repository 
 ```sh
 git clone https://github.com/holbertonschool/W3C-Validator.git
 ```
